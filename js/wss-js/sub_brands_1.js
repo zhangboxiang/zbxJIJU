@@ -1,0 +1,9 @@
+$(function(){
+	$('#code').hover(function(){
+		$(this).find('a').css('opacity','0').css('z-index','5')
+		$(this).find('.code_img').css('opacity','1').css('z-index','10')
+	},function(){
+		$(this).find('a').css('opacity','1').css('z-index','10')
+		$(this).find('.code_img').css('opacity','0').css('z-index','5')
+	})
+})

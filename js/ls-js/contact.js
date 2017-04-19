@@ -1,0 +1,70 @@
+$(function(){
+	//导航
+	$(".list-1").click(function(){
+		if($(".duce>div:nth-child(1)").css("display")=="none"){
+			$(".duce>div:nth-child(1)").slideDown(500);
+			$(".duce>div:nth-child(1)").siblings().slideUp(500);
+		}else{
+			$(".duce>div:nth-child(1)").slideUp(500);
+		}
+	})
+	$(".list-2").click(function(){
+		if($(".duce>div:nth-child(2)").css("display")=="none"){
+			$(".duce>div:nth-child(2)").slideDown(500)
+			$(".duce>div:nth-child(2)").siblings().slideUp(500);
+		}else{
+			$(".duce>div:nth-child(2)").slideUp(500);
+		}
+	})
+	$(".list-3").click(function(){
+		if($(".duce>div:nth-child(3)").css("display")=="none"){
+			$(".duce>div:nth-child(3)").slideDown(500)
+			$(".duce>div:nth-child(3)").siblings().slideUp(500);
+		}else{
+			$(".duce>div:nth-child(3)").slideUp(500);
+		}
+	})
+	$(".list-4").click(function(){
+		if($(".duce>div:nth-child(4)").css("display")=="none"){
+			$(".duce>div:nth-child(4)").slideDown(500)
+			$(".duce>div:nth-child(4)").siblings().slideUp(500);
+		}else{
+			$(".duce>div:nth-child(4)").slideUp(500);
+		}
+	})
+	$(".list-5").click(function(){
+		if($(".duce>div:nth-child(5)").css("display")=="none"){
+			$(".duce>div:nth-child(5)").slideDown(500)
+			$(".duce>div:nth-child(5)").siblings().slideUp(500);
+		}else{
+			$(".duce>div:nth-child(5)").slideUp(500);
+		}
+	})
+	$(".list-6").click(function(){
+		if($(".duce>div:nth-child(6)").css("display")=="none"){
+			$(".duce>div:nth-child(6)").slideDown(500)
+			$(".duce>div:nth-child(6)").siblings().slideUp(500);
+		}else{
+			$(".duce>div:nth-child(6)").slideUp(500);
+		}
+	})
+	
+	//map
+	$(".m1").click(function(){
+		$(".m1").css("borderBottom","2px #cab28b solid")
+		$(".m2").css("border","none")
+		$(".m1>i").css("color","#cab28b")
+		$(".m2>i").css("color","#666")
+		$(".map1").show()	
+		$(".map2").hide()	
+	})
+	$(".m2").click(function(){
+		$(".m2").css("borderBottom","2px #cab28b solid")
+		$(".m1").css("border","none")
+		$(".m2>i").css("color","#cab28b")
+		$(".m1>i").css("color","#666")
+		$(".map2").show()
+		$(".map1").hide()	
+	})
+})
+	

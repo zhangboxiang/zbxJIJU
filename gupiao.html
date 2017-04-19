@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="js/jquery-2.1.4.min.js"></script>
+		<link rel="stylesheet" href="css/bx-css/gupiao.css" />
+		<link rel="stylesheet" href="css/bx-css/base.css" />
+		<script src="js/company.js"></script>
+		<link rel="stylesheet" href="css/bx-css/company1.css" />
+		<script>
+			$(function(){
+				$('#ii li').click(function(){
+					$(".jju").eq($(this).index()).css("display","block")
+					$(".jju").eq($(this).index()).siblings('.jju').css("display","none")
+					$("#ii li").eq($(this).index()).css({"border-bottom":"2px solid #cab28b","color":"#cab28b"})
+					$("#ii li").eq($(this).index()).siblings('#ii li').css({"border-bottom":"none","color":"#989898"})
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div class="head" style="height: 520px;">
+			<p style="font-size: 12px;top:170px;">
+			
+			— INVESTOR RELATIONS —</p>
+			<li style="font-weight: bold;top: 210px;font-size: 36px;color: white;">投资者关系</li>
+			
+			<div>
+				<div>
+					<img src="img/bx-img/log.png"/>
+					<div>
+						<ul>
+							<span>
+								<p>中文</p>
+								<p></p>
+								<p>ENGLISH</p>
+							</span>
+						</ul>
+						<ul id="list">
+							<li class="list-1">吉居简介</li>
+							<li class="list-2">企业动态</li>
+							<li class="list-3">吉居业务</li>
+							<li class="list-4">招贤纳士</li>
+							<li class="list-5">投资者关系</li>
+							<li class="list-6">合作共赢</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<ul class="duce">
+				<div class="duce-1">
+					<ul>
+						<ul>
+							<a href="pany.html">公司简介</a>
+							<a href="events.html">罗拉大事记</a>
+							<a href="core.html">核心理念</a>
+							<a href="zeren.html">企业社会责任</a>
+							<a href="companyhonor.html">公司荣誉</a>
+							<a href="contact.html">联系我们</a>
+						</ul>
+					</ul>
+				</div>
+				<div class="duce-2">
+					<ul>
+						<ul>
+							<a href="group_news.html">集团新闻</a>
+							<a href="media reports.html">媒体报道</a>
+						</ul>
+					</ul>
+				</div>
+				<div class="duce-3">
+					<ul>
+						<ul>
+							<a href="sub_brands_1.html">吉居品牌</a>
+							<a href="shareholding enterprises.html">参股企业</a>
+						</ul>
+					</ul>
+				</div>
+				<div class="duce-4">
+					<ul>
+						<ul>
+							<a href="employing the concept.html">用人理念</a>
+							<a href="soclal recruitment.html">社会招聘</a>
+							<a href="graduates.html#list">校园招聘</a>
+							<a href="work_in_luolai.html">吉居人</a>
+							<a href="luolai university.html">吉居大学</a>
+						</ul>
+					</ul>
+				</div>
+				<div class="duce-5">
+					<ul>
+						<ul>
+							<a href="gupiao.html#ii">股票信息</a>
+							<a href="pilu.html">信息披露</a>
+						</ul>
+					</ul>
+				</div>
+				<div class="duce-6">
+					<ul>
+						<ul>
+							<a href="tuangou.html">礼品团购</a>
+							<a href="jiameng.html">招商加盟</a>
+							<a href="caigou.html">采购招标</a>
+						</ul>
+					</ul>
+				</div>
+			</ul>
+		</div>
+		
+		<div class="bb">
+			<div class="bbl">
+				<ul id="ii">
+					<li style="color: #cab28b;">实时动态</li>
+					<li style="border: none;">历史查询</li>
+					<li style="border: none;">历史分红</li>
+				</ul>
+				<div class="sss"></div>
+				<div class="his"></div>
+				<div class="fh"></div>
+			</div>
+		</div>
+		
+		<div class="xk jju">
+		<div class="kk"></div>
+		<div class="life">
+			<div class="lifel">
+				<span>吉居生活002293</span>
+				<p><span style="font-size: 38px;">13.21</span>RMB&nbsp;&nbsp;&nbsp;&nbsp;0.92%</p>
+				<div class="sanjiao"></div>
+			</div>
+			<div class="lifer">
+				<ul>
+					<li>
+						<p>最高</p>
+						<p style="font-size: 18px;">13.21</p>
+					</li>
+					<li>
+						<p>最低 </p>
+						<p style="font-size: 18px;">13.06</p>
+					</li>
+					<li>
+						<p>成交量</p>
+						<p style="font-size: 18px;">79.64万手</p>
+					</li>
+					<li>
+						<p>成交额</p>
+						<p style="font-size: 18px;">1046.27万手</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="biao">
+			<div class="fd"></div>
+		</div>
+		</div>
+		<div class="tk jju">
+			<div class="nn">
+				<div class="kk"></div>
+				<div class="stock_table">
+					<div class="act-date">
+						<span>
+							开始时间:
+						<input type="text" class="dateinfo hasDatepicker"/>
+						</span>
+						<span>
+							结束时间:
+							<input type="text" class="dateinfo hasDatepicker"/>
+						</span>
+						<a href="javascript:;" class="btn" id="search">查询</a>
+					</div>
+					<table>
+						<tbody>
+							<tr>
+								<th>日期</th>
+								<th>开盘价</th>
+								<th>最高</th>
+								<th>最低</th>
+								<th>收市价</th>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr>
+								<td>2017-02-07</td>
+								<td>13.35</td>
+								<td class="redColor">13.38↑</td>
+								<td class="redColor">13.25↓</td>
+								<td>13.38</td>
+							</tr>
+							<tr>
+								<td>2017-01-24</td>
+								<td>13.15</td>
+								<td class="redColor">13.24↑</td>
+								<td class="redColor">13.05↓</td>
+								<td>13.09</td>
+							</tr>
+							<tr>
+								<td>2017-01-23</td>
+								<td>13.03</td>
+								<td class="redColor">13.16↑</td>
+								<td class="redColor">12.99↓</td>
+								<td>13.15</td>
+							</tr>
+							<tr>
+								<td>2017-01-22</td>
+								<td>12.85</td>
+								<td class="redColor">13.07↑</td>
+								<td class="redColor">12.85↓</td>
+								<td>13.02</td>
+							</tr>
+							<tr>
+								<td>2017-01-17</td>
+								<td>12.9</td>
+								<td class="redColor">13.09↑</td>
+								<td class="redColor">12.62↓</td>
+								<td>13.08</td>
+							</tr>
+							<tr>
+								<td>2017-01-16</td>
+								<td>13.79</td>
+								<td class="redColor">13.79↑</td>
+								<td class="redColor">12.77↓</td>
+								<td>12.96</td>
+							</tr>
+							<tr>
+								<td>2017-01-10</td>
+								<td>13.68</td>
+								<td class="redColor">13.78↑</td>
+								<td class="redColor">13.57↓</td>
+								<td>13.63</td>
+							</tr>
+							<tr>
+								<td>2017-01-09</td>
+								<td>13.69</td>
+								<td class="redColor">13.7↑</td>
+								<td class="redColor">13.53↓</td>
+								<td>13.64</td>
+							</tr>
+							<tr>
+								<td>2017-01-08</td>
+								<td>13.81</td>
+								<td class="redColor">13.89↑</td>
+								<td class="redColor">13.49↓</td>
+								<td>13.68</td>
+							</tr>
+							<tr>
+								<td>2017-01-07</td>
+								<td>13.81</td>
+								<td class="redColor">13.89↑</td>
+								<td class="redColor">13.49↓</td>
+								<td>13.68</td>
+							</tr>
+							<tr>
+								<td>2017-01-06</td>
+								<td>13.81</td>
+								<td class="redColor">13.89↑</td>
+								<td class="redColor">13.49↓</td>
+								<td>13.68</td>
+							</tr>
+							<tr>
+								<td>2017-01-05</td>
+								<td>13.92</td>
+								<td class="redColor">13.92↑</td>
+								<td class="redColor">13.72↓</td>
+								<td>13.79</td>
+							</tr>
+							<tr>
+								<td>2017-01-02</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2017-01-01</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2016-12-31</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2016-12-30</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2016-12-26</td>
+								<td>13.49</td>
+								<td class="redColor">13.51↑</td>
+								<td class="redColor">13.35↓</td>
+								<td>13.5</td>
+							</tr>
+							<tr>
+								<td>2016-12-25</td>
+								<td>13.59</td>
+								<td class="redColor">13.65↑</td>
+								<td class="redColor">13.45↓</td>
+								<td>13.51</td>
+							</tr>
+							<tr>
+								<td>2016-12-24</td>
+								<td>13.59</td>
+								<td class="redColor">13.65↑</td>
+								<td class="redColor">13.45↓</td>
+								<td>13.51</td>
+							</tr>
+							<tr>
+								<td>2016-12-23</td>
+								<td>13.59</td>
+								<td class="redColor">13.65↑</td>
+								<td class="redColor">13.45↓</td>
+								<td>13.51</td>
+							</tr>
+							<tr>
+								<td>2016-12-22</td>
+								<td>13.6</td>
+								<td class="redColor">13.72↑</td>
+								<td class="redColor">13.37↓</td>
+								<td>13.57</td>
+							</tr>
+							<tr>
+								<td>2016-12-30</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2016-12-21</td>
+								<td>13.67</td>
+								<td class="redColor">13.79↑</td>
+								<td class="redColor">13.49↓</td>
+								<td>13.55</td>
+							</tr>
+							<tr>
+								<td>2016-12-20</td>
+								<td>13.46</td>
+								<td class="redColor">13.59↑</td>
+								<td class="redColor">13.3↓</td>
+								<td>13.55</td>
+							</tr>
+							<tr>
+								<td>2016-12-19</td>
+								<td>13.36</td>
+								<td class="redColor">13.54↑</td>
+								<td class="redColor">13.29↓</td>
+								<td>13.46</td>
+							</tr>
+							<tr>
+								<td>2016-12-18</td>
+								<td>13.51</td>
+								<td class="redColor">13.53↑</td>
+								<td class="redColor">13.36↓</td>
+								<td>13.42</td>
+							</tr>
+							<tr>
+								<td>2016-12-17</td>
+								<td>13.51</td>
+								<td class="redColor">13.53↑</td>
+								<td class="redColor">13.36↓</td>
+								<td>13.42</td>
+							</tr>
+							<tr>
+								<td>2016-12-16</td>
+								<td>13.51</td>
+								<td class="redColor">13.53↑</td>
+								<td class="redColor">13.36↓</td>
+								<td>13.42</td>
+							</tr>
+							<tr>
+								<td>2016-12-13</td>
+								<td>13.27</td>
+								<td class="redColor">13.42↑</td>
+								<td class="redColor">13.13↓</td>
+								<td>13.33</td>
+							</tr>
+							<tr>
+								<td>2016-12-12</td>
+								<td>13.95</td>
+								<td class="redColor">13.98↑</td>
+								<td class="redColor">13.1↓</td>
+								<td>13.3</td>
+							</tr>
+							<tr>
+								<td>2016-12-11</td>
+								<td>13.87</td>
+								<td class="redColor">14↑</td>
+								<td class="redColor">13.77↓</td>
+								<td>13.98</td>
+							</tr>
+							<tr>
+								<td>2016-12-10</td>
+								<td>13.87</td>
+								<td class="redColor">14↑</td>
+								<td class="redColor">13.77↓</td>
+								<td>13.98</td>
+							</tr>
+							<tr>
+								<td>2016-12-09</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2016-12-08</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2016-12-07</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2016-12-06</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2016-12-05</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2016-12-04</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2016-12-03</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2016-12-02</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2016-12-01</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-30</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-29</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-28</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-27</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-26</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-25</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-24</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-23</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-22</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-21</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-20</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-19</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-18</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-17</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-16</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-15</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-14</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-14</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-13</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-12</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-11</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-10</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-09</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-08</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-07</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-06</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-05</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-04</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-03</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-02</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2015-11-01</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-30</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-29</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-28</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-27</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-26</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-25</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-24</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-23</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-22</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-21</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-20</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-19</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-18</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-17</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-16</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr><tr>
+								<td>2014-10-15</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-15</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-14</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2014-10-13</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2016-10-12</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2016-10-11</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2016-10-10</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							<tr>
+								<td>2016-10-09</td>
+								<td>13.32</td>
+								<td class="redColor">13.63↑</td>
+								<td class="redColor">13.32↓</td>
+								<td>13.45</td>
+							</tr>
+							
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="hk jju">
+			<div class="tt">
+				<div class="kk">
+					<div class="stock_table">
+						<table>
+							<tbody>
+								<tr>
+									<th>报告期</th>
+									<th>宣派日期</th>
+									<th>支付日期</th>
+									<th>每股股利<br>(元)</th>
+								</tr>
+								<tr>
+									<td>2014-12-31</td>
+									<td>2015-05-22</td>
+									<td>2015-05-28</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>2013-12-31</td>
+									<td>2014-05-22</td>
+									<td>2015-05-28</td>
+									<td>0.35</td>
+								</tr>
+								<tr>
+									<td>2012-12-31</td>
+									<td>2013-05-25</td>
+									<td>2013-05-31</td>
+									<td>0.7</td>
+								</tr>
+								<tr>
+									<td>2011-12-31</td>
+									<td>2012-05-14</td>
+									<td>2012-05-18</td>
+									<td>1</td>
+								</tr>
+								<tr>
+									<td>2010-12-31</td>
+									<td>2011-05-04</td>
+									<td>2011-05-10</td>
+									<td>1.42</td>
+								</tr>
+								<tr>
+									<td>2009-12-31</td>
+									<td>2010-04-22</td>
+									<td>2010-04-30</td>
+									<td>0.7</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="sz">
+			<ul>
+				<li>
+					<p>地址：上海市闵行区七莘路3588号</p>
+					<p>邮编：201105</p>
+				</li>
+				<li>
+					<p>电话：021-23138888/021-23138500</p>
+					<p>传真：021-54811234</p>
+				</li>
+				<li>
+					<p>电子邮箱：luolai@luolai.com.cn</p>
+					<p>客服邮箱：service@luolai.com.cn</p>
+				</li>
+			</ul>
+			<div class="dz"></div>
+			<div class="dhh"></div>
+			<div class="yx"></div>
+		</div>
+		
+		
+		<div class="foot">
+			<div>
+				<ul>
+					<p style="font-size: 12px;">吉居简介</p>
+					<a href="">公司简介</a>
+					<a href="">吉居大事记</a>
+					<a href="">核心理念</a>
+					<a href="">企业社会责任</a>
+					<a href="">公司荣誉</a>
+					<a href="">联系我们</a>
+				</ul>
+				<ul>
+					<p style="font-size: 12px;">企业动态</p>
+					<a href="">集团新闻</a>
+					<a href="">媒体报道</a>
+				</ul>
+				<ul>
+					<p style="font-size: 12px;">吉居业务</p>
+					<a href="">吉居品牌</a>
+					<a href="">参股企业</a>
+				</ul>
+				<ul>
+					<p style="font-size: 12px;">招贤纳士</p>
+					<a href="">用人理念</a>
+					<a href="">社会招聘</a>
+					<a href="">校园招聘</a>
+					<a href="">吉居人</a>
+					<a href="">吉居大学</a>
+				</ul>
+				<ul>
+					<p style="font-size: 12px;">投资者关系</p>
+					<a href="">股票信息</a>
+					<a href="">信息披露</a>
+				</ul>
+				<ul>
+					<p style="font-size: 12px;">合作共赢</p>
+					<a href="">礼品团购</a>
+					<a href="">招商加盟</a>
+					<a href="">采购招标</a>
+				</ul>
+				<div style="margin-top: 52px;position:relative">
+					<p class="ss">吉居生活 002293</p>
+
+					<p class="ll">2017-02-03 08:54:59</p>
+					<p class="dd">13.21￥<span style="font-size: 25px;display:block;margin-top:0;margin-left: 170px;">0.92%</span></p>
+					<div class="pp"></div>
+				</div>
+			</div>
+			<li>
+				<img src="img/bx-img/foot.jpg"/>
+				苏ICP备11014879号版权所有 ©吉居生活科技股份有限公司
+			</li>
+		</div>
+	</body>
+</html>

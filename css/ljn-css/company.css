@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+ul,
+ol,
+li,
+dt,
+dd,
+dl,
+i,
+em,
+strong,
+b,
+form {
+  font-size: 12px;
+  font-family: 'Microsoft Yahei';
+}
+ul,
+ol,
+dl {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+li {
+  cursor: pointer;
+}
+a img {
+  border: 0;
+  vertical-align: top;
+}
+i,
+em {
+  font-style: normal;
+}
+b,
+strong {
+  font-weight: normal;
+}
+input,
+textarea {
+  outline: none;
+  resize: none;
+}
+.fl {
+  float: left;
+  display: inline;
+}
+.fr {
+  float: right;
+  display: inline;
+}
+.por {
+  position: relative;
+}
+.clearFix:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.clearFix {
+  zoom: 1;
+}
+
+.foot {
+  width: 100%;
+  height: 412px;
+  background: #f8f8f8;
+  border-top: 1px solid #ebebeb;
+}
+.foot > div {
+  width: 1023px;
+  height: 341px;
+  margin: 0 auto;
+}
+.foot > div > ul {
+  width: 115px;
+  height: 304px;
+  float: left;
+  padding-top: 37px;
+}
+.foot > div > ul > p {
+  width: 115px;
+  height: 52px;
+  font-size: 16px;
+  line-height: 52px;
+}
+.foot > div > ul > a {
+  display: block;
+  color: #8c8c8c;
+  width: 115px;
+  height: 33px;
+  line-height: 33px;
+}
+.foot > div > ul > a:hover {
+  color: #333;
+}
+.foot > div > div {
+  width: 200px;
+  height: 94px;
+  float: left;
+  margin: 108px 0px 0px 50px;
+}
+.foot > li {
+  list-style: none;
+  width: 100%;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+  color: #b3b3b3;
+  border-top: 1px solid #ebebeb;
+  font-size: 14px;
+  position: relative;
+}
+.foot > li > img {
+  position: absolute;
+  width: 20px;
+  height: 24px;
+  top: 24px;
+  left: 34.5%;
+}
+/*# sourceMappingURL=company.css.map */
